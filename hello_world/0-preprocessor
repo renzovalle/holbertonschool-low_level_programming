@@ -1,2 +1,2 @@
 #! /bin/bash
-gcc -E "c.c" -Wall -Werror -Wextra -pedantic -std=gnu89 -o "salidaprocesada" ; echo $OUTPUT_FILE
+gcc -E "0-main.c" -Wall -Werror -Wextra -pedantic -std=gnu89 -o "salidaprocesada" ; echo $OUTPUT_FILE

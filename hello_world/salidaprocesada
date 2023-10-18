@@ -727,8 +727,15 @@ extern int __overflow (FILE *, int);
 # 2 "0-main.c" 2
 
 
-# 3 "0-main.c"
+
+
+
+
+
+
+# 9 "0-main.c"
 int main(void)
 {
+ printf ("Holberton School")
  return (0)
 }

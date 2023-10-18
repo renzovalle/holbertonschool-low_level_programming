@@ -1,0 +1,3 @@
+#! /bin/bash
+gcc -E "c.c" -o "salidaprocesada"
+echo $OUTPUT_FILE

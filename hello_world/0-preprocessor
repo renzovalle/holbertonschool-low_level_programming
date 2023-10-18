@@ -1,2 +1,2 @@
 #! /bin/bash
-export CFILE="main.c" ; gcc -E "$CFILE" -Wall -Werror -Wextra -pedantic -std=gnu89 -o "salidaprocesada" ; echo $OUTPUT_FILE ; echo >> c
+export CFILE="main.c" ; gcc -E "$CFILE" -Wall -Werror -Wextra -pedantic -std=gnu89 -o "salidaprocesada" ; cp "salidaprocesada" "c"
